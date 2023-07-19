@@ -1,0 +1,75 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-07-19 15:24:37.181864",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "title",
+  "director",
+  "column_break_pqgo",
+  "poster",
+  "release_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Title",
+   "reqd": 1
+  },
+  {
+   "fieldname": "director",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Director",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_pqgo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "poster",
+   "fieldtype": "Attach Image",
+   "label": "Poster"
+  },
+  {
+   "fieldname": "release_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Release Date",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-07-19 15:34:37.354142",
+ "modified_by": "Administrator",
+ "module": "Movie Tickets",
+ "name": "Movie",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "title",
+ "track_changes": 1
+}
