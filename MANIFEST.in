@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include movie_tickets *.css
+recursive-include movie_tickets *.csv
+recursive-include movie_tickets *.html
+recursive-include movie_tickets *.ico
+recursive-include movie_tickets *.js
+recursive-include movie_tickets *.json
+recursive-include movie_tickets *.md
+recursive-include movie_tickets *.png
+recursive-include movie_tickets *.py
+recursive-include movie_tickets *.svg
+recursive-include movie_tickets *.txt
+recursive-exclude movie_tickets *.pyc
