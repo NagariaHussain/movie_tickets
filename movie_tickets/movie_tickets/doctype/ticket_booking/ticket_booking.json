@@ -13,7 +13,9 @@
   "column_break_gaem",
   "number_of_tickets",
   "theater",
-  "amended_from"
+  "amended_from",
+  "section_break_kccz",
+  "selected_seats"
  ],
  "fields": [
   {
@@ -65,12 +67,21 @@
    "options": "Ticket Booking",
    "print_hide": 1,
    "read_only": 1
+  },
+  {
+   "fieldname": "section_break_kccz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "selected_seats",
+   "fieldtype": "JSON",
+   "label": "Selected Seats"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-07-19 15:33:50.187263",
+ "modified": "2023-07-25 16:02:54.198778",
  "modified_by": "Administrator",
  "module": "Movie Tickets",
  "name": "Ticket Booking",

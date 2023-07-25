@@ -9,6 +9,7 @@
  "field_order": [
   "title",
   "director",
+  "synopsis",
   "column_break_pqgo",
   "poster",
   "release_date"
@@ -43,11 +44,17 @@
    "in_list_view": 1,
    "label": "Release Date",
    "reqd": 1
+  },
+  {
+   "fieldname": "synopsis",
+   "fieldtype": "Small Text",
+   "label": "Synopsis",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-07-19 15:34:37.354142",
+ "modified": "2023-07-25 15:37:58.745022",
  "modified_by": "Administrator",
  "module": "Movie Tickets",
  "name": "Movie",

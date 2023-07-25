@@ -13,6 +13,12 @@ const routes = [
     path: '/account/login',
     component: () => import('@/pages/Login.vue'),
   },
+  {
+    name: 'MovieDetails',
+    path: '/movies/:movieName',
+    component: () => import('@/pages/MovieDetails.vue'),
+    props: true
+  }
 ]
 
 let router = createRouter({

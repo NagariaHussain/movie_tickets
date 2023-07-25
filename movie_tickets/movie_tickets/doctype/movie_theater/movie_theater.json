@@ -18,8 +18,13 @@
   }
  ],
  "index_web_pages_for_search": 1,
- "links": [],
- "modified": "2023-07-19 15:26:51.919382",
+ "links": [
+  {
+   "link_doctype": "Theater Show",
+   "link_fieldname": "theater"
+  }
+ ],
+ "modified": "2023-07-25 15:40:39.749701",
  "modified_by": "Administrator",
  "module": "Movie Tickets",
  "name": "Movie Theater",
